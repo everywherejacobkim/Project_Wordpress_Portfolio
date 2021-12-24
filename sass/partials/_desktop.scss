@@ -1,0 +1,60 @@
+// **************** Contact Page *******************//
+.contactTitle1 {
+    display: block;
+    font-size: 60px;
+    writing-mode: vertical-lr;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    font-family: $desc-font;
+}
+
+.contactTitle2 {
+    display: block;
+    position: absolute;
+    top: 78%;
+    left: 93%;
+    font-size: 60px;
+    writing-mode: vertical-lr;
+    font-family: $desc-font;
+    letter-spacing: 5px;
+}
+
+.submitBtn {
+    transform: translateY(10px);
+}
+
+
+// **************** Single Page *******************//
+.single-post {
+    .post {
+        .entry-title {
+            font-size: 24pt;
+            padding: 10px;
+        }
+    }
+}
+
+.single-content {
+
+    p {
+        margin: 40px 80px;
+        font-family: $title-font;
+        width: 600px;
+        margin-left: 27%;
+    }
+
+    figure {
+        text-align: center;
+
+        img {
+            margin-top: 10px;
+            width: auto;
+            max-height: 600px;
+        }
+    }
+
+    ul {
+        transform: translateX(26%);
+    }
+
+}

@@ -1,0 +1,25 @@
+/*
+Theme Name: Portfolio
+Author: Namhyung Kim
+Description: portfolio theming project
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: portfolio_namhyungkim
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Variables */
+@import "partials/variables";
+
+/* Animation */
+@import "partials/animation";
+
+/* Mobile */
+@import "partials/mobile";
+
+/* Desktop */
+@media (min-width:900px) {
+    @import "partials/desktop";
+}
